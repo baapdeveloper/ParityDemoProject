@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_light">
+
+    <RelativeLayout
+        android:id="@+id/rl_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp">
+
+        <ImageView
+            android:id="@+id/iv_navigation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_navigation" />
+
+        <ImageView
+            android:id="@+id/iv_left_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_left_arrow"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_title_main"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/white"
+        android:layout_toRightOf="@+id/rl_left"
+        android:gravity="center_vertical"
+        android:text="demo app"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true">
+
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_search" />
+
+
+        <ImageView
+            android:id="@+id/iv_notification"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_search"
+            android:src="@drawable/ic_notification" />
+
+        <ImageView
+            android:id="@+id/iv_liked"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/iv_search"
+            android:src="@drawable/ic_like"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

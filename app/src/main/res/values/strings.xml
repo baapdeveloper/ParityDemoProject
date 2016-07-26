@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ParityDemoProject</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="pager_array">
+        <item>FORUM</item>
+        <item>RECENT POST</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_blank_fragment">Blank Fragment</string>
+    <string name="text_detail_page">Because url you provided was not working,i checked on postman i was unable to do further task for showing thread detail so please provide another url so that i can do further if you want and sorry for delay as our project lauch was there so it happened</string>
+
+</resources>
